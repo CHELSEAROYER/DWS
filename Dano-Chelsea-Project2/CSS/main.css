@@ -5,24 +5,49 @@ browser & then styling those elements in chronological order
 Also will add lots of Comments, first thing to change 
 Navigation list to inline element look with display.*/
 
-body{
-	width:700px;
-}
-
-body{
-	margin:10px auto;
-}
-
 li.mainNav {
     display: inline;
     margin: 10px;
 }
+/*------------------------------------------------*/
+
+
+/*-----------TEXT STYLE---------------*/
+
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	<link href='https://fonts.googleapis.com/css?family=Roboto' 
+	rel='stylesheet' type='text/css'>
+	format ("Wof");
+}
+
+
+h1{
+	font-size:250%;
+}
+
+p{
+    text-indent: 50px;
+}
+
+/*--------------------------------------------------------*/
+
+body{
+	width:700px;
+	margin:10px auto;
+	background-color: rgba(214,126,92,0.8);/* 2nd warm tone*/
+	font-style:normal;
+	font-weight:normal;
+	font-size:100%;
+	line-height:25px;
+	font-family: 'Roboto', sans-serif;
+
+
+}
 
 
 
 
 
-/*li.mainNav {
-	display:inline;
-	margin-right:10px;
-}*/
+
+
