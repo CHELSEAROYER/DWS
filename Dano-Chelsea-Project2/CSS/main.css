@@ -1,0 +1,28 @@
+/* I think just starting out like this it's of the utmost
+of importance to start off with a large amount of organization
+-My method will essentially be looking at the elements on the 
+browser & then styling those elements in chronological order
+Also will add lots of Comments, first thing to change 
+Navigation list to inline element look with display.*/
+
+body{
+	width:700px;
+}
+
+body{
+	margin:10px auto;
+}
+
+li.mainNav {
+    display: inline;
+    margin: 10px;
+}
+
+
+
+
+
+/*li.mainNav {
+	display:inline;
+	margin-right:10px;
+}*/
