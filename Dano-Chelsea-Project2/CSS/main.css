@@ -9,6 +9,16 @@ li.mainNav {
     display: inline;
     margin: 10px;
 }
+
+/*List Style Type -for Beignet -------*/
+
+
+li.ListStyleType{
+	list-style-type:circle;
+}
+
+
+/*--------------------------------------------------------*/
 /*    STYLING LINKS IN MAIN NAVIGATION     */
 
 a:link {
@@ -68,6 +78,72 @@ body{
 
 }
 
+/*---------------THIS IS FOR BOX MODEL STYLING------------*/
+
+article#Beignet{
+	width:500px;
+	height:1100px;
+	padding:10px;
+	border:2px;
+	border-style:solid; 
+	border-color:rgba(113,51,38,0.7);
+	margin:25;
+
+
+}
+
+article#Bosschebol{
+	width:500px;
+	height:900px;
+	padding:10px;
+	border:2px;
+	border-style:solid; 
+	border-color:rgba(113,51,38,0.7);
+	margin:25;
+}
+
+article#Chouquette{
+	width:500px;
+	height:750px;
+	padding:10px;
+	border:2px;
+	border-style:solid; 
+	border-color:rgba(113,51,38,0.7);
+	margin:25;
+}
+
+article#Croquembouche{
+	width:500px;
+	height:1000px;
+	padding:10px;
+	border:2px;
+	border-style:solid; 
+	border-color:rgba(113,51,38,0.7);
+	margin:25;
+}
+
+article#Nunspuffs{
+	width:500px;
+	height:600px;
+	padding:10px;
+	border:2px;
+	border-style:solid; 
+	border-color:rgba(113,51,38,0.7);
+	margin:25;
+}
+
+article#StHonorécake{
+	width:500px;
+	height:700px;
+	padding:10px;
+	border:2px;
+	border-style:solid; 
+	border-color:rgba(113,51,38,0.7);
+	margin:25;
+	
+}
+
+/*----------------------------------------------------*/
 
 
 
