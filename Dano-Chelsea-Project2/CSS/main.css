@@ -87,7 +87,9 @@ article#Beignet{
 	border:2px;
 	border-style:solid; 
 	border-color:rgba(113,51,38,0.7);
+	border-radius:25px;
 	margin:25;
+	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
 
 
 }
@@ -99,7 +101,9 @@ article#Bosschebol{
 	border:2px;
 	border-style:solid; 
 	border-color:rgba(113,51,38,0.7);
+	border-radius:25px;
 	margin:25;
+	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
 }
 
 article#Chouquette{
@@ -109,7 +113,9 @@ article#Chouquette{
 	border:2px;
 	border-style:solid; 
 	border-color:rgba(113,51,38,0.7);
+	border-radius:25px;
 	margin:25;
+	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
 }
 
 article#Croquembouche{
@@ -119,7 +125,9 @@ article#Croquembouche{
 	border:2px;
 	border-style:solid; 
 	border-color:rgba(113,51,38,0.7);
+	border-radius:25px;
 	margin:25;
+	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
 }
 
 article#Nunspuffs{
@@ -129,7 +137,9 @@ article#Nunspuffs{
 	border:2px;
 	border-style:solid; 
 	border-color:rgba(113,51,38,0.7);
+	border-radius:25px;
 	margin:25;
+	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
 }
 
 article#StHonorécake{
@@ -139,7 +149,9 @@ article#StHonorécake{
 	border:2px;
 	border-style:solid; 
 	border-color:rgba(113,51,38,0.7);
+	border-radius:25px;
 	margin:25;
+	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
 	
 }
 
