@@ -1,16 +1,12 @@
-/* I think just starting out like this it's of the utmost
-of importance to start off with a large amount of organization
--My method will essentially be looking at the elements on the 
-browser & then styling those elements in chronological order
-Also will add lots of Comments, first thing to change 
-Navigation list to inline element look with display.*/
+/*----WANTED NAVIGATION TO DIPLAY HORIZONTALLY----*/
+
 
 li.mainNav {
     display: inline;
     margin: 10px;
 }
 
-/*List Style Type -for Beignet -------*/
+/*--------List Style Type -for Beignet -------*/
 
 
 li.ListStyleType{
@@ -82,7 +78,7 @@ body{
 
 article#Beignet{
 	width:500px;
-	height:1100px;
+	height:1200px;
 	padding:10px;
 	border:2px;
 	border-style:solid; 
