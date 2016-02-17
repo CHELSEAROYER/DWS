@@ -50,7 +50,7 @@ a:active {
 
 
 h1{
-	font-size:250%;
+	font-size:1.500em;
     text-shadow: 2px 1px #000000;
 
 }
@@ -62,12 +62,12 @@ p{
 /*--------------------------------------------------------*/
 
 body{
-	width:1020px;
+	width:1050px;
 	margin:10px auto;
 	background-color: rgba(214,126,92,0.8);/* 2nd warm tone*/
 	font-style:normal;
 	font-weight:normal;
-	font-size:100%;
+	font-size:1.000em;
 	line-height:25px;
 	font-family: 'Roboto', sans-serif;
 
@@ -153,10 +153,18 @@ article#StHonorécake{
 
 /*-------------------ADD SHORTHAND 4 MULTI COLUMN LAYOUT---------------------------------*/
 
-#Bei, #Boss, #chou, #croq, #nuns, #sthon {
+#Bei, #Boss, #chou {
 	float:left;
-	width:500px;
+	width:400px;
 	margin:10px;
+	clear:both;
+}
+
+#croq, #nuns, #sthon {
+	float:right;
+	width:400px;
+	margin:10px;
+	clear:both;
 }
 
 
