@@ -57,96 +57,108 @@ h1{
 
 p{
     text-indent: 50px;
+    color:#fff;
 }
 
 /*--------------------------------------------------------*/
 
 body{
-	width:1050px;
-	margin:10px auto;
+	color:#fff;
+	width:100%;
+	margin:10% auto;
 	background-color: rgba(214,126,92,0.8);/* 2nd warm tone*/
 	font-style:normal;
 	font-weight:normal;
 	font-size:1.000em;
 	line-height:25px;
 	font-family: 'Roboto', sans-serif;
+	/*-----------adding background repeat----------------*/
+	background:url("../images/simple-scales.gif")repeat-x,
+	url("../images/fork-spoon.png")
+	no-repeat 50% 50% fixed;
+	background-color: rgba(214,126,92,0.8);
+	background:linear-gradient(#f96,#c63);
+	
+	
 
-
+	
 }
 
 /*---------------THIS IS FOR BOX MODEL STYLING------------*/
+/*        THE TEXT KEEPS SPILLING OUT OF THE BOXES
+           EVERY TIME I MOVE THE BROWSER WINDOW.------*/
 
 article#Beignet{
-	width:500px;
+	width:55%;
 	height:1200px;
-	padding:10px;
+	padding:5%px;
 	border:2px;
 	border-style:solid; 
 	border-color:rgba(113,51,38,0.7);
 	border-radius:25px;
-	margin:25;
+	margin:5%;
 	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
 
 
 }
 
 article#Bosschebol{
-	width:500px;
+	width:55%;
 	height:900px;
-	padding:10px;
+	padding:5%;
 	border:2px;
 	border-style:solid; 
 	border-color:rgba(113,51,38,0.7);
 	border-radius:25px;
-	margin:25;
+	margin:5%;
 	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
 }
 
 article#Chouquette{
-	width:500px;
+	width:55%;
 	height:750px;
-	padding:10px;
+	padding:5%;
 	border:2px;
 	border-style:solid; 
 	border-color:rgba(113,51,38,0.7);
 	border-radius:25px;
-	margin:25;
+	margin:5%;
 	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
 }
 
 article#Croquembouche{
-	width:500px;
+	width:55%;
 	height:1000px;
-	padding:10px;
+	padding:5%;
 	border:2px;
 	border-style:solid; 
 	border-color:rgba(113,51,38,0.7);
 	border-radius:25px;
-	margin:25;
+	margin:5%;
 	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
 }
 
 article#Nunspuffs{
-	width:500px;
+	width:55%;
 	height:600px;
-	padding:10px;
+	padding:5%;
 	border:2px;
 	border-style:solid; 
 	border-color:rgba(113,51,38,0.7);
 	border-radius:25px;
-	margin:25;
+	margin:5%;
 	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
 }
 
 article#StHonorécake{
-	width:500px;
+	width:55%;
 	height:700px;
-	padding:10px;
+	padding:5%;
 	border:2px;
 	border-style:solid; 
 	border-color:rgba(113,51,38,0.7);
 	border-radius:25px;
-	margin:25;
+	margin:5%;
 	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
 	
 }
@@ -155,15 +167,20 @@ article#StHonorécake{
 
 #Bei, #Boss, #chou {
 	float:left;
-	width:400px;
-	margin:10px;
+	width:55%;
+	margin:5%;
 	clear:both;
 }
 
 #croq, #nuns, #sthon {
 	float:right;
-	width:400px;
-	margin:10px;
+	width:55%;
+	margin:5%;
+	clear:both;
+}
+
+footer{
+	float:left;
 	clear:both;
 }
 
