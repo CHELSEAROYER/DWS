@@ -1,7 +1,10 @@
+
+
+
 /*----WANTED NAVIGATION TO DIPLAY HORIZONTALLY----*/
 
 
-li.mainNav {
+nav li {
     display: inline;
     margin: 10px;
 }
@@ -72,10 +75,10 @@ body{
 	font-size:1.000em;
 	line-height:25px;
 	font-family: 'Roboto', sans-serif;
-	/*-----------adding background repeat----------------*/
+	
+	/*-----------adding background repeat...?----------------*/
 	background:url("../images/simple-scales.gif")repeat-x,
-	url("../images/fork-spoon.png")
-	no-repeat 50% 50% fixed;
+	url("../images/fork-spoon.png")no-repeat fixed 50% 50%;
 	background-color: rgba(214,126,92,0.8);
 	background:linear-gradient(#f96,#c63);
 	
@@ -89,8 +92,8 @@ body{
            EVERY TIME I MOVE THE BROWSER WINDOW.------*/
 
 article#Beignet{
-	width:55%;
-	height:1200px;
+	width:40%;
+	height:1900px;
 	padding:5%px;
 	border:2px;
 	border-style:solid; 
@@ -98,13 +101,11 @@ article#Beignet{
 	border-radius:25px;
 	margin:5%;
 	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
-
-
 }
 
 article#Bosschebol{
-	width:55%;
-	height:900px;
+	width:40%;
+	height:1200px;
 	padding:5%;
 	border:2px;
 	border-style:solid; 
@@ -115,7 +116,7 @@ article#Bosschebol{
 }
 
 article#Chouquette{
-	width:55%;
+	width:40%;
 	height:750px;
 	padding:5%;
 	border:2px;
@@ -127,8 +128,8 @@ article#Chouquette{
 }
 
 article#Croquembouche{
-	width:55%;
-	height:1000px;
+	width:40%;
+	height:1300px;
 	padding:5%;
 	border:2px;
 	border-style:solid; 
@@ -139,8 +140,8 @@ article#Croquembouche{
 }
 
 article#Nunspuffs{
-	width:55%;
-	height:600px;
+	width:40%;
+	height:900px;
 	padding:5%;
 	border:2px;
 	border-style:solid; 
@@ -151,8 +152,8 @@ article#Nunspuffs{
 }
 
 article#StHonorécake{
-	width:55%;
-	height:700px;
+	width:40%;
+	height:800px;
 	padding:5%;
 	border:2px;
 	border-style:solid; 
@@ -165,24 +166,51 @@ article#StHonorécake{
 
 /*-------------------ADD SHORTHAND 4 MULTI COLUMN LAYOUT---------------------------------*/
 
-#Bei, #Boss, #chou {
+#Bei {
 	float:left;
-	width:55%;
+	width:40%;
 	margin:5%;
-	clear:both;
 }
 
-#croq, #nuns, #sthon {
-	float:right;
-	width:55%;
+#Boss{
+	Float:left;
+	width:40%;
 	margin:5%;
-	clear:both;
 }
+
+#chou{
+	Float:left;
+	width:40%;
+	margin:5%;
+}
+
+#croq{
+	Float:left;
+	width:40%;
+	margin:5%;
+}
+
+#nuns{
+	Float:left;
+	width:40%;
+	margin:5%;
+}
+
+#sthon{
+	Float:left;
+	width:40%;
+	margin:5%;
+}
+
 
 footer{
-	float:left;
-	clear:both;
+	clear:left;
 }
+
+
+
+
+
 
 
 
