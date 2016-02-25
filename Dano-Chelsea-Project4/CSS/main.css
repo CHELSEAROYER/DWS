@@ -208,6 +208,37 @@ footer{
 }
 
 
+/*----------------TABLE STYLE-----------------*/
+ 
+#table{
+	width:40%;
+	padding:5%;
+	text-transform: uppercase;
+	font-size:1.000em;
+	border-style: groove;
+	text-align: center;
+	background-color: #ffc6a3;
+	border-collapse: separate;
+	margin:10% auto;
+} 
+
+tr:hover{
+	background-color:f3c56e;
+}
+
+/*---------------------------------------------------*/
+
+/*------------------THE FORM--------------------------*/
+
+
+
+
+
+
+
+
+
+
 
 
 
