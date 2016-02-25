@@ -230,6 +230,57 @@ tr:hover{
 
 /*------------------THE FORM--------------------------*/
 
+#textarea{
+	width:40%;
+	padding:5%;
+	margin:10% auto;
+	font size:1.000em;
+	border-style:groove;
+	text-align: center;
+	background-color: #ffc6a3;
+	
+}
+
+#email{
+	width:40%;
+	padding:5%;
+	margin:10% auto;
+	font size:1.000em;
+	border-style:groove;
+	text-align: center;
+	background-color: #ffc6a3;
+}
+
+#checkBox{
+	width:40%;
+	padding:5%;
+	margin:10% auto;
+	font size:1.000em;
+	border-style:groove;
+	text-align: center;
+	background-color: #ffc6a3;
+}
+
+#dropDown{
+	width:40%;
+	padding:5%;
+	margin:10% auto;
+	font size:1.000em;
+	border-style:groove;
+	text-align: center;
+	background-color: #ffc6a3;
+}
+
+
+
+input:hover{
+	background-color:f3c56e;
+	
+}
+
+input:focus{
+	background-color:00ffff;
+}
 
 
 
